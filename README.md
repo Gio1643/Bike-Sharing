@@ -10,14 +10,18 @@ Proyek ini merupakan proyek akhir dari kelas “Belajar Analisis Data Dengan Pyt
 6. Terakhir, jalankan sel kode yang ada.  
 
 ## dashboard/dashboard.py
-1. Unduh proyek ini.  
-2. Instal Streamlit melalui terminal atau command prompt dengan perintah:  
+1. Unduh proyek ini.
+2. Buka Visual Studio Code dan import proyek ini
+3. Instal Streamlit melalui terminal atau command prompt dengan perintah:  
    ```bash
    pip install streamlit
    ```  
-   Instal juga pustaka lain seperti *pandas*, *numpy*, *scipy*, *matplotlib*, dan *seaborn* jika belum terpasang.  
-3. Perhatikan agar file *csv* tidak dipindahkan karena berfungsi sebagai sumber data. Simpan dalam satu folder yang sama dengan *dashboard.py*.  
-4. Buka VSCode, jalankan terminal, lalu eksekusi file dengan perintah:  
+4. Instal requirements.txt melalui terminal atau command prompt dengan perintah:
+   ```bash
+   pip install -r requirements.txt
+   ```
+5. Perhatikan agar file *csv* tidak dipindahkan karena berfungsi sebagai sumber data. Simpan dalam satu folder yang sama dengan *dashboard.py*.  
+6. Jalankan terminal, lalu eksekusi file dengan perintah:  
    ```bash
    streamlit run dashboard.py
    ```
